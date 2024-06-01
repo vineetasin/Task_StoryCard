@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Task_StoryCard/static/css/main.952f58b1.css",
+    "main.js": "/Task_StoryCard/static/js/main.f9c3c1dd.js",
+    "index.html": "/Task_StoryCard/index.html",
+    "main.952f58b1.css.map": "/Task_StoryCard/static/css/main.952f58b1.css.map",
+    "main.f9c3c1dd.js.map": "/Task_StoryCard/static/js/main.f9c3c1dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.952f58b1.css",
+    "static/js/main.f9c3c1dd.js"
+  ]
+}
