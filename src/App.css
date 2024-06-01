@@ -1,38 +1,180 @@
-.App {
+/* App.css */
+
+.MainC {
   text-align: center;
+  margin: 20px 0;
+  color: white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 24vw;
+  margin-bottom: 45px;
+  margin-top: 15px;
+}
+.logo h1{
+  font-size: 30px;
+  color: white;
+}
+span {
+  background: -webkit-linear-gradient(#6bf1f1, #5c1cf0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .mid{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  margin-right: 55px;
+  margin-top: 18px;
+}
+.mid h4{
+  font-size: 13px;
+  color: antiquewhite;
+}
+.header button{
+  margin-top: 12px;
+  border: none;
+  background-image: linear-gradient(to right, rgb(202, 48, 202), rgb(44, 181, 206));
+  border-radius: 20px;
+  padding: 10px 25px;
+  color: white;
+  font-size: 10px;
+}
+.btnS{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  margin-bottom: 4vw;
+}
+.new{
+  background-color: rgb(71, 142, 248);
+  margin-top: 12px;
+  border: none;
+  padding: 10px 40px;
+  color: white;
+  font-size: 13px;
+  border-radius: 20px;
+}
+.comp{
+  background-color: rgb(77, 243, 62);
+  margin-top: 12px;
+  border: none;
+  padding: 10px 40px;
+  color: white;
+  font-size: 13px;
+  border-radius: 20px;
+}
+.pro{
+  background-color: rgb(238, 214, 78);
+  margin-top: 12px;
+  border: none;
+  padding: 10px 40px;
+  color: white;
+  font-size: 13px;
+  border-radius: 20px;
+}
+.clr{
+  background-image: linear-gradient(to right, rgb(202, 48, 202), rgb(44, 181, 206));
+  margin-top: 12px;
+  border: none;
+  padding: 10px 40px;
+  color: white;
+  font-size: 13px;
+  border-radius: 20px;
+}
+.title{
+  font-size: 38px;
+  margin-bottom: 50px;
+  margin-left: 1vw;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.card {
+  table-layout: fixed;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  border: 1px solid #0e0b0b;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  background-image: linear-gradient(to right, rgb(71, 10, 71), rgb(30, 121, 121));
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-title {
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white !important;
+}
+
+.card-title h2 {
+  color: white;
+}
+
+.card-text {
+  margin-bottom: 1px;
+}
+
+.btn-primary {
+  background-color: white;
+  color: black;
+  border: none;
+  margin: 10px;
+  padding: 2px 79.6px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 30px;
+  
+}
+
+.btn-primary:hover {
+  background-image: linear-gradient(to right, rgb(233, 247, 47), rgb(0, 87, 128));
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
 }
